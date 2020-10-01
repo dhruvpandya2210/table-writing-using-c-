@@ -3,6 +3,7 @@ include<stdio.h>
 int main ()
 {
     int ch;
+    clrscr();
     printf("enter your choice=");
     scanf("%c",&ch)
     switch(ch)
