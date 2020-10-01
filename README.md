@@ -22,7 +22,7 @@ int main ()
      case 'u':
           printf("your character is vowel");
           break;
-        default: printf("character is constant")
+        default: printf("character is constant");
     
     }
     
