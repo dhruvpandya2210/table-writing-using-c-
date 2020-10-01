@@ -2,7 +2,7 @@ include<stdio.h>
 
 int main ()
 {
-    int ch;
+    char ch;
     printf("enter your choice=");
     scanf("%c",&ch)
     switch(ch)
@@ -23,7 +23,7 @@ int main ()
           printf("your character is vowel");
           break;
         default: printf("character is constant")
-    
+    ;
     }
     
     return 0;
